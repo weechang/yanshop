@@ -6,15 +6,28 @@
     <groupId>xyz.weechang</groupId>
     <artifactId>yanshop</artifactId>
     <version>0.0.1</version>
+    <modules>
+        <module>yanshop-ware</module>
+        <module>yanshop-order</module>
+        <module>yanshop-cart</module>
+        <module>yanshop-customer</module>
+        <module>yanshop-portal</module>
+    </modules>
 
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <moreco.version>0.0.2</moreco.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>xyz.weechang</groupId>
+                <artifactId>moreco-spring-boot-starter</artifactId>
+                <version>${moreco.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
