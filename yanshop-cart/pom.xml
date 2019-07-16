@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yanshop-cart</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>yanshop-cart-admin</module>
+    </modules>
 
 
 </project>

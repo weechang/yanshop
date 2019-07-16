@@ -18,6 +18,9 @@ public class Category extends BaseDomain {
     /*** 上级分类Id */
     private Long parentId;
 
+    /*** 类目编码 */
+    private String catCode;
+
     /*** 分类名称 */
     private String name;
 

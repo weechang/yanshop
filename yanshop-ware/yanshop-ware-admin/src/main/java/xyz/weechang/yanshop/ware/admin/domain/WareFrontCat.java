@@ -14,4 +14,10 @@ import xyz.weechang.moreco.core.model.domain.BaseDomain;
 @Data
 public class WareFrontCat extends BaseDomain {
     private static final long serialVersionUID = 6094574736250205775L;
+
+    /*** 类目ID */
+    private Long catId;
+
+    /*** spuId */
+    private Long spuId;
 }

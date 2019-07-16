@@ -12,6 +12,7 @@
         <module>yanshop-cart</module>
         <module>yanshop-customer</module>
         <module>yanshop-portal</module>
+        <module>yanshop-active</module>
     </modules>
 
     <packaging>pom</packaging>

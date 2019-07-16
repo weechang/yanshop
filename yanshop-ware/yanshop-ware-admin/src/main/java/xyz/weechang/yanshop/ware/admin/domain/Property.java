@@ -14,4 +14,19 @@ import xyz.weechang.moreco.core.model.domain.BaseDomain;
 @Data
 public class Property extends BaseDomain {
     private static final long serialVersionUID = 7350229638397541610L;
+
+    /*** 名称 */
+    private String name;
+
+    /*** 属性值类型 1-单选，2-多选，3-输入框 */
+    private String valueType;
+
+    /*** 排序 */
+    private Integer sort;
+
+    /*** 后台类目 */
+    private Long catId;
+
+    /*** 状态 */
+    private Integer status;
 }

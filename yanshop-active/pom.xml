@@ -9,10 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>yanshop-customer</artifactId>
+    <artifactId>yanshop-active</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>yanshop-customer-admin</module>
+        <module>yanshop-active-admin</module>
+        <module>yanshop-active-api</module>
     </modules>
 
 

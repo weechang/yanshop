@@ -13,6 +13,18 @@ import xyz.weechang.moreco.core.model.domain.BaseDomain;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class WareAblum extends BaseDomain {
+public class WareResource extends BaseDomain {
     private static final long serialVersionUID = -6925429524759893450L;
+
+    /*** 资源路径 */
+    private String sourceUrl;
+
+    /*** 资源类型 1-图片资源 2-视频资源 */
+    private Integer sourceType;
+
+    /*** 资源位置 1-相册资源 2-商详资源 */
+    private Integer sourceLocation;
+
+    /*** 资源排序 */
+    private Integer sort;
 }
